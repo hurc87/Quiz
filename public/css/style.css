@@ -2,6 +2,22 @@ body {
     background-color: #C1E8D0;
 }
 
+h1 {
+  color: #003813;
+  font-size: 50px;
+}
+
+a {
+  color: #003813;
+  font-size: 40px;
+}
+
+a:hover {
+  color: #502C85;
+  font-size: 40px;
+}
+
+
 .main_box {
   border: thick double #003813;
   width: 90%;
