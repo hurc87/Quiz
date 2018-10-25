@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 class QuizManager < Sinatra::Base
   get '/' do
-    'Quiz'
+    erb :index
   end
 
   run! if app_file == $0
